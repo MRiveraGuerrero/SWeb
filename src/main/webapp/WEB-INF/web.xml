@@ -9,7 +9,22 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>holaMundoCabeceras</servlet-name>
-        <url-pattern>com.example.prueba/holaMundoCabeceras</url-pattern>
+        <url-pattern>/holaMundoCabeceras</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>holaMundoGetPost</servlet-name>
+        <servlet-class>com.example.prueba.holaMundoGetPost</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>holaMundoGetPost</servlet-name>
+        <url-pattern>/holaMundoGetPost</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>holaMundoCache</servlet-name>
+        <servlet-class>com.example.prueba.HolaMundoCache</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>holaMundoCache</servlet-name>
+        <url-pattern>/holaMundoCache</url-pattern>
     </servlet-mapping>
 </web-app>
-aasd

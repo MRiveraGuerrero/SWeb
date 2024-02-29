@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Respuesta</title>
+</head>
+<body>
+<h1 id="saludo"></h1>
+<p id="mensaje"></p>
+<form action="index.jsp" method="get"> <!-- Cambiado a index.jsp -->
+    <input type="submit" value="Volver">
+</form>
+
+<script>
+    // Obtener parámetros de la URL
+    var params = new URLSearchParams(window.location.search);
+    // Obtener el valor del parámetro 'nombre'
+    var nombre = params.get('nombre');
+    // Actualizar el contenido HTML con el nombre y el mensaje recibidos
+    document.getElementById('saludo').innerText = 'Hola, ' + nombre;
+    document.getElementById('mensaje').innerText = 'Has pasado tu nombre con GET en la URI.';
+</script>
+</body>
+</html>

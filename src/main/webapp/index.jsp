@@ -18,15 +18,19 @@
 <body>
 <h1><%= "Hello World!" %>
 </h1>
-<form method="get" action="/holamundoGetPost">
+<form method="get" action='holaMundoGetPost'>
     Nombre: <input type="text" name="nombre" >
     <button type="submit">DoGet</button>
 </form> <br>
-<form method="post" action=“../servlet/holamundoGetPost">
+<form method="post" action='holaMundoGetPost'>
     Nombre: <input type="text" name="nombre"/>
     <button type="submit">DoPost</button>
 <br/>
 </form>
+<br>
+<button onclick="window.location.href='holaMundoCache'">HolaMundoCache</button>
+<br/>
+<br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>
