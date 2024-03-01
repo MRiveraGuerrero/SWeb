@@ -30,6 +30,12 @@
 <br>
 <button onclick="window.location.href='holaMundoCache'">HolaMundoCache</button>
 <br/>
+<br>
+<button onclick="window.location.href='HolaMundoHTMLHardcoded'">HolaMundoHTMLHardcoded</button>
+<br/>
+<br>
+<button onclick="window.location.href='HolaMundoHTMLdispatched'">HolaMundoHTMLdispatched</button>
+<br/>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>

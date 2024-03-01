@@ -27,4 +27,20 @@
         <servlet-name>holaMundoCache</servlet-name>
         <url-pattern>/holaMundoCache</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>HolaMundoHTMLHardcoded</servlet-name>
+        <servlet-class>com.example.prueba.HolaMundoHTMLHardcoded</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HolaMundoHTMLHardcoded</servlet-name>
+        <url-pattern>/HolaMundoHTMLHardcoded</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>HolaMundoHTMLdispatched</servlet-name>
+        <servlet-class>com.example.prueba.HolaMundoHTMLdispatched</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HolaMundoHTMLdispatched</servlet-name>
+        <url-pattern>/HolaMundoHTMLdispatched</url-pattern>
+    </servlet-mapping>
 </web-app>
