@@ -15,6 +15,20 @@
 <body>
     <h2>¡BIenvenido a la pagina de saludo!</h2>
     <%-- Obtenemos el nombre del parametro de la solicitud --%>
+    <% String nombre = request.getParameter("nombre");
+        // Veeificamos si el nombre es nulo o vacio
+        if (nombre != null && !nombre.isEmpty()) {
+    %>
+            <p>Hola,<%=nombre%></p>
 
+    <% } else { %>
+            <p>Por favor, introduce tu nombre</p>
+
+    <% } %>
+    <form action="ejemplo.jsp" method="get">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id=nombre name="nombre">
+        <input type="submit" value="Saludar">
+    </form>
 </body>
 </html>
